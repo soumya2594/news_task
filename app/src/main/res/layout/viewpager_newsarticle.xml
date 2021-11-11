@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/three_hundred"
+        android:id="@+id/iv_imageview"
+        android:background="@drawable/news_image"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fifteen"
+        android:layout_marginRight="@dimen/fifteen"
+        android:layout_marginEnd="@dimen/fifteen"
+        android:layout_marginLeft="@dimen/fifteen"
+        android:layout_marginStart="@dimen/fifteen"
+        android:id="@+id/tv_author"
+        android:textSize="@dimen/thirteen"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fifteen"
+        android:layout_marginLeft="@dimen/fifteen"
+        android:layout_marginEnd="@dimen/fifteen"
+        android:layout_marginRight="@dimen/fifteen"
+        android:layout_marginTop="@dimen/fifteen"
+        android:id="@+id/tv_title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/eighteen"
+        android:maxLines="2"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fifteen"
+        android:layout_marginRight="@dimen/fifteen"
+        android:layout_marginEnd="@dimen/fifteen"
+        android:layout_marginLeft="@dimen/fifteen"
+        android:layout_marginStart="@dimen/fifteen"
+        android:textSize="@dimen/fifteen"
+        android:maxLines="5"
+        android:ellipsize="end"
+        android:id="@+id/tv_description"
+        android:textColor="@color/black"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_seefull"
+        android:layout_marginBottom="@dimen/fifty"
+        android:background="@drawable/rounded"
+        android:text="@string/seefulldetails"
+        android:padding="@dimen/fifteen"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fifteen"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+
+
+
+
+</LinearLayout>
